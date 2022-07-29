@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-image: url("../images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    color: rgb(253, 245, 251);
+  
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+
+}
+
+.logo{
+    margin-bottom: 20px;
+}
+
+.logo img{
+    width: 210px;
+}
+
+
+img{
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.register a {
+    background-color: white;
+    padding: 10px 70px;
+    margin: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: hsl(257, 51%, 44%);
+    box-shadow: 8px 8px 5px;
+    cursor: pointer;
+}
+a:hover{
+    background-color: hsl(300, 69%, 71%);
+    
+}
+a:active {
+    background-color: blueviolet;
+    
+}
+
+
+.container2{
+    display: flex;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-right: -10px;
+}
+
+h1, p {
+    width: 80%;
+    padding: 10px;
+   
+}
+
+p{
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.8;
+}
+
+.fa-brands{
+    color: white;
+    border: 2px solid;
+    border-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icons {
+    text-align: right;
+    margin-right: 30px;
+}
+
+/* MOBILE CODES */
+
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+    }
+
+       
+   body {
+    background-image: url('../Images/bg-mobile.svg');
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+
+    
+}
+
+.logo img{
+    margin: 0px 30px;
+    width: 120px;
+
+}
+
+div>img {
+    margin: 0px 30px;
+    width: 250px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.body {
+    color: hsl(300, 100%, 98%);
+    text-align: center;
+    
+}
+
+h1 {
+    
+    line-height:center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    }
+
+h1, p {
+    width: 85%;
+    padding: 10px;
+    margin: auto;
+    /* font-size: 15px; */
+    text-align: center;
+   
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    opacity: 0.8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.register a {
+    padding: 10px 60px;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+    margin:0px 90px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+
+.fa-brands{
+    color: white;
+    border: 2px solid;
+    border-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+
+.icons {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    /* margin-top: 50px;
+    margin-left: 50px; */
+}
+
+}
